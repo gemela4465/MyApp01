@@ -1,0 +1,14 @@
+使用 virualenv 建立一個虛擬環境
+    exp: virualenv ProRC_env
+
+啟用虛擬環境
+.\ProRC_env\Scripts\activate
+
+如要關閉虛擬環境
+.\ProRC_env\Scripts\deactivate
+
+安裝插件
+
+pip install twilio
+pip install pyinstaller
+pip install kivy
